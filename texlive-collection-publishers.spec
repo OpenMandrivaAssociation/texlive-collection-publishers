@@ -5,7 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-collection-publishers
-Version:	20120223
+Epoch:		1
+Version:	20120224
 Release:	1
 Summary:	Support for publishers, theses, standards, conferences, etc
 Group:		Publishing
