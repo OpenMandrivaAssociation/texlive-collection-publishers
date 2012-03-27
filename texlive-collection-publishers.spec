@@ -1,4 +1,4 @@
-# revision 25324
+# revision 25619
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20120224
+Version:	20120327
 Release:	1
 Summary:	Support for publishers, theses, standards, conferences, etc
 Group:		Publishing
@@ -97,6 +97,7 @@ Requires:	texlive-thuthesis
 Requires:	texlive-toptesi
 Requires:	texlive-tugboat
 Requires:	texlive-tugboat-plain
+Requires:	texlive-tui
 Requires:	texlive-uaclasses
 Requires:	texlive-uafthesis
 Requires:	texlive-ucdavisthesis
