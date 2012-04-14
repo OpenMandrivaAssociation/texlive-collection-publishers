@@ -1,4 +1,4 @@
-# revision 25619
+# revision 25892
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20120327
+Version:	20120413
 Release:	1
 Summary:	Support for publishers, theses, standards, conferences, etc
 Group:		Publishing
@@ -34,6 +34,7 @@ Requires:	texlive-arsclassica
 Requires:	texlive-asaetr
 Requires:	texlive-ascelike
 Requires:	texlive-beamer-FUBerlin
+Requires:	texlive-bgteubner
 Requires:	texlive-cascadilla
 Requires:	texlive-chem-journal
 Requires:	texlive-classicthesis
@@ -52,6 +53,7 @@ Requires:	texlive-fcltxdoc
 Requires:	texlive-gaceta
 Requires:	texlive-gatech-thesis
 Requires:	texlive-har2nat
+Requires:	texlive-hobete
 Requires:	texlive-icsv
 Requires:	texlive-ieeepes
 Requires:	texlive-ijmart
