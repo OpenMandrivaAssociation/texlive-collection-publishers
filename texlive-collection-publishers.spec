@@ -1,4 +1,4 @@
-# revision 25892
+# revision 27331
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20120413
+Version:	20120810
 Release:	1
 Summary:	Support for publishers, theses, standards, conferences, etc
 Group:		Publishing
@@ -16,21 +16,23 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-publis
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Requires:	texlive-ANUfinalexam
 Requires:	texlive-IEEEconf
 Requires:	texlive-IEEEtran
 Requires:	texlive-aastex
 Requires:	texlive-acmconf
 Requires:	texlive-active-conf
+Requires:	texlive-adfathesis
 Requires:	texlive-afthesis
 Requires:	texlive-aguplus
 Requires:	texlive-aiaa
 Requires:	texlive-ametsoc
+Requires:	texlive-anufinalexam
 Requires:	texlive-aomart
 Requires:	texlive-apa
 Requires:	texlive-apa6
 Requires:	texlive-apa6e
 Requires:	texlive-arsclassica
+Requires:	texlive-articleingud
 Requires:	texlive-asaetr
 Requires:	texlive-ascelike
 Requires:	texlive-beamer-FUBerlin
@@ -58,6 +60,7 @@ Requires:	texlive-icsv
 Requires:	texlive-ieeepes
 Requires:	texlive-ijmart
 Requires:	texlive-imac
+Requires:	texlive-imsproc
 Requires:	texlive-imtekda
 Requires:	texlive-jmlr
 Requires:	texlive-jpsj
@@ -75,6 +78,7 @@ Requires:	texlive-nih
 Requires:	texlive-nostarch
 Requires:	texlive-nrc
 Requires:	texlive-onrannual
+Requires:	texlive-opteng
 Requires:	texlive-philosophersimprint
 Requires:	texlive-powerdot-FUBerlin
 Requires:	texlive-pracjourn
