@@ -1,4 +1,4 @@
-# revision 27331
+# revision 27955
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	Support for publishers, theses, standards, conferences, etc
 Group:		Publishing
@@ -80,16 +80,19 @@ Requires:	texlive-nrc
 Requires:	texlive-onrannual
 Requires:	texlive-opteng
 Requires:	texlive-philosophersimprint
+Requires:	texlive-pkuthss
 Requires:	texlive-powerdot-FUBerlin
 Requires:	texlive-pracjourn
 Requires:	texlive-procIAGssymp
 Requires:	texlive-ptptex
 Requires:	texlive-psu-thesis
+Requires:	texlive-resphilosophica
 Requires:	texlive-revtex
 Requires:	texlive-revtex4
 Requires:	texlive-ryethesis
 Requires:	texlive-sageep
 Requires:	texlive-sapthesis
+Requires:	texlive-scrjrnl
 Requires:	texlive-seuthesis
 Requires:	texlive-soton
 Requires:	texlive-spie
@@ -109,12 +112,14 @@ Requires:	texlive-uafthesis
 Requires:	texlive-ucdavisthesis
 Requires:	texlive-ucthesis
 Requires:	texlive-uiucthesis
+Requires:	texlive-ulthese
 Requires:	texlive-umthesis
 Requires:	texlive-umich-thesis
 Requires:	texlive-unamthesis
 Requires:	texlive-ut-thesis
 Requires:	texlive-uothesis
 Requires:	texlive-uowthesis
+Requires:	texlive-uspatent
 Requires:	texlive-uwthesis
 Requires:	texlive-vancouver
 Requires:	texlive-york-thesis
