@@ -1,4 +1,4 @@
-# revision 27955
+# revision 27331
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20121030
+Version:	20120810
 Release:	1
 Summary:	Support for publishers, theses, standards, conferences, etc
 Group:		Publishing
@@ -80,19 +80,16 @@ Requires:	texlive-nrc
 Requires:	texlive-onrannual
 Requires:	texlive-opteng
 Requires:	texlive-philosophersimprint
-Requires:	texlive-pkuthss
 Requires:	texlive-powerdot-FUBerlin
 Requires:	texlive-pracjourn
 Requires:	texlive-procIAGssymp
 Requires:	texlive-ptptex
 Requires:	texlive-psu-thesis
-Requires:	texlive-resphilosophica
 Requires:	texlive-revtex
 Requires:	texlive-revtex4
 Requires:	texlive-ryethesis
 Requires:	texlive-sageep
 Requires:	texlive-sapthesis
-Requires:	texlive-scrjrnl
 Requires:	texlive-seuthesis
 Requires:	texlive-soton
 Requires:	texlive-spie
@@ -112,14 +109,12 @@ Requires:	texlive-uafthesis
 Requires:	texlive-ucdavisthesis
 Requires:	texlive-ucthesis
 Requires:	texlive-uiucthesis
-Requires:	texlive-ulthese
 Requires:	texlive-umthesis
 Requires:	texlive-umich-thesis
 Requires:	texlive-unamthesis
 Requires:	texlive-ut-thesis
 Requires:	texlive-uothesis
 Requires:	texlive-uowthesis
-Requires:	texlive-uspatent
 Requires:	texlive-uwthesis
 Requires:	texlive-vancouver
 Requires:	texlive-york-thesis
@@ -138,3 +133,24 @@ TeXLive collection-publishers package.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813982
+- Update to latest release.
+
+* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
++ Revision: 790894
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
++ Revision: 787866
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780509
+- Update to latest release.
+- Import texlive-collection-publishers
+- Import texlive-collection-publishers
+
