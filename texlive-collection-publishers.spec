@@ -1,4 +1,4 @@
-# revision 27331
+# revision 31532
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20120810
-Release:	3
-Summary:	Support for publishers, theses, standards, conferences, etc
+Version:	20131013
+Release:	1
+Summary:	Publisher styles, theses, etc
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,9 +16,11 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-publis
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-latex
 Requires:	texlive-IEEEconf
 Requires:	texlive-IEEEtran
 Requires:	texlive-aastex
+Requires:	texlive-abntex2
 Requires:	texlive-acmconf
 Requires:	texlive-active-conf
 Requires:	texlive-adfathesis
@@ -26,7 +28,7 @@ Requires:	texlive-afthesis
 Requires:	texlive-aguplus
 Requires:	texlive-aiaa
 Requires:	texlive-ametsoc
-Requires:	texlive-ANUfinalexam
+Requires:	texlive-anufinalexam
 Requires:	texlive-aomart
 Requires:	texlive-apa
 Requires:	texlive-apa6
@@ -42,8 +44,8 @@ Requires:	texlive-chem-journal
 Requires:	texlive-classicthesis
 Requires:	texlive-cmpj
 Requires:	texlive-confproc
+Requires:	texlive-ebook
 Requires:	texlive-ebsthesis
-Requires:	texlive-economic
 Requires:	texlive-ejpecp
 Requires:	texlive-elbioimp
 Requires:	texlive-elsarticle
@@ -60,14 +62,14 @@ Requires:	texlive-icsv
 Requires:	texlive-ieeepes
 Requires:	texlive-ijmart
 Requires:	texlive-imac
-Requires:	texlive-imsproc
 Requires:	texlive-imtekda
 Requires:	texlive-jmlr
 Requires:	texlive-jpsj
 Requires:	texlive-kdgdocs
 Requires:	texlive-kluwer
 Requires:	texlive-lps
-Requires:	texlive-macqassign
+Requires:	texlive-matc3
+Requires:	texlive-matc3mem
 Requires:	texlive-mentis
 Requires:	texlive-msu-thesis
 Requires:	texlive-musuos
@@ -80,22 +82,28 @@ Requires:	texlive-nrc
 Requires:	texlive-onrannual
 Requires:	texlive-opteng
 Requires:	texlive-philosophersimprint
+Requires:	texlive-pkuthss
 Requires:	texlive-powerdot-FUBerlin
 Requires:	texlive-pracjourn
 Requires:	texlive-procIAGssymp
+Requires:	texlive-proposal
 Requires:	texlive-ptptex
 Requires:	texlive-psu-thesis
+Requires:	texlive-resphilosophica
+Requires:	texlive-resumecls
 Requires:	texlive-revtex
 Requires:	texlive-revtex4
 Requires:	texlive-ryethesis
 Requires:	texlive-sageep
 Requires:	texlive-sapthesis
+Requires:	texlive-scrjrnl
 Requires:	texlive-seuthesis
 Requires:	texlive-soton
 Requires:	texlive-spie
 Requires:	texlive-stellenbosch
 Requires:	texlive-suftesi
 Requires:	texlive-sugconf
+Requires:	texlive-tabriz-thesis
 Requires:	texlive-texilikechaps
 Requires:	texlive-texilikecover
 Requires:	texlive-thesis-titlepage-fhac
@@ -105,20 +113,28 @@ Requires:	texlive-tugboat
 Requires:	texlive-tugboat-plain
 Requires:	texlive-tui
 Requires:	texlive-uaclasses
+Requires:	texlive-uadocs
 Requires:	texlive-uafthesis
 Requires:	texlive-ucdavisthesis
 Requires:	texlive-ucthesis
+Requires:	texlive-uestcthesis
+Requires:	texlive-uiucredborder
 Requires:	texlive-uiucthesis
+Requires:	texlive-ulthese
 Requires:	texlive-umthesis
 Requires:	texlive-umich-thesis
 Requires:	texlive-unamthesis
+Requires:	texlive-unswcover
 Requires:	texlive-ut-thesis
 Requires:	texlive-uothesis
 Requires:	texlive-uowthesis
+Requires:	texlive-uowthesistitlepage
+Requires:	texlive-uspatent
 Requires:	texlive-uwthesis
 Requires:	texlive-vancouver
+Requires:	texlive-wsemclassic
+Requires:	texlive-xcookybooky
 Requires:	texlive-york-thesis
-Requires:	texlive-collection-latex
 
 %description
 TeXLive collection-publishers package.
@@ -133,24 +149,3 @@ TeXLive collection-publishers package.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813982
-- Update to latest release.
-
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
-+ Revision: 790894
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
-+ Revision: 787866
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780509
-- Update to latest release.
-- Import texlive-collection-publishers
-- Import texlive-collection-publishers
-
