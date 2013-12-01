@@ -1,4 +1,4 @@
-# revision 31532
+# revision 31931
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
@@ -39,6 +39,7 @@ Requires:	texlive-asaetr
 Requires:	texlive-ascelike
 Requires:	texlive-beamer-FUBerlin
 Requires:	texlive-bgteubner
+Requires:	texlive-brandeis-dissertation
 Requires:	texlive-cascadilla
 Requires:	texlive-chem-journal
 Requires:	texlive-classicthesis
