@@ -7,7 +7,7 @@
 Name:		texlive-collection-publishers
 Epoch:		1
 Version:	20131201
-Release:	3
+Release:	4
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
 URL:		http://tug.org/texlive
