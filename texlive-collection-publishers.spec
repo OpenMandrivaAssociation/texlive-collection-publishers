@@ -1,4 +1,4 @@
-# revision 31931
+# revision 32864
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20131201
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -83,6 +83,7 @@ Requires:	texlive-nrc
 Requires:	texlive-onrannual
 Requires:	texlive-opteng
 Requires:	texlive-philosophersimprint
+Requires:	texlive-pittetd
 Requires:	texlive-pkuthss
 Requires:	texlive-powerdot-FUBerlin
 Requires:	texlive-pracjourn
@@ -101,6 +102,7 @@ Requires:	texlive-scrjrnl
 Requires:	texlive-seuthesis
 Requires:	texlive-soton
 Requires:	texlive-spie
+Requires:	texlive-sr-vorl
 Requires:	texlive-stellenbosch
 Requires:	texlive-suftesi
 Requires:	texlive-sugconf
