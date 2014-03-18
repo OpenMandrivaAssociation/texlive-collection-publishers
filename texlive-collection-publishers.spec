@@ -1,4 +1,4 @@
-# revision 32864
+# revision 33117
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20140215
+Version:	20140318
 Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
@@ -45,6 +45,7 @@ Requires:	texlive-chem-journal
 Requires:	texlive-classicthesis
 Requires:	texlive-cmpj
 Requires:	texlive-confproc
+Requires:	texlive-dccpaper
 Requires:	texlive-ebook
 Requires:	texlive-ebsthesis
 Requires:	texlive-ejpecp
