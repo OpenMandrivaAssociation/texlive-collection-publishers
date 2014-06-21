@@ -1,4 +1,4 @@
-# revision 33117
+# revision 34295
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20140318
-Release:	2
+Version:	20140621
+Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -46,6 +46,7 @@ Requires:	texlive-classicthesis
 Requires:	texlive-cmpj
 Requires:	texlive-confproc
 Requires:	texlive-dccpaper
+Requires:	texlive-dithesis
 Requires:	texlive-ebook
 Requires:	texlive-ebsthesis
 Requires:	texlive-ejpecp
@@ -100,6 +101,7 @@ Requires:	texlive-ryethesis
 Requires:	texlive-sageep
 Requires:	texlive-sapthesis
 Requires:	texlive-scrjrnl
+Requires:	texlive-schule
 Requires:	texlive-seuthesis
 Requires:	texlive-soton
 Requires:	texlive-spie
@@ -110,15 +112,18 @@ Requires:	texlive-sugconf
 Requires:	texlive-tabriz-thesis
 Requires:	texlive-texilikechaps
 Requires:	texlive-texilikecover
+Requires:	texlive-thesis-ekf
 Requires:	texlive-thesis-titlepage-fhac
 Requires:	texlive-thuthesis
 Requires:	texlive-toptesi
+Requires:	texlive-tudscr
 Requires:	texlive-tugboat
 Requires:	texlive-tugboat-plain
 Requires:	texlive-tui
 Requires:	texlive-uaclasses
 Requires:	texlive-uadocs
 Requires:	texlive-uafthesis
+Requires:	texlive-ucbthesis
 Requires:	texlive-ucdavisthesis
 Requires:	texlive-ucthesis
 Requires:	texlive-uestcthesis
@@ -127,6 +132,7 @@ Requires:	texlive-uiucthesis
 Requires:	texlive-ulthese
 Requires:	texlive-umthesis
 Requires:	texlive-umich-thesis
+Requires:	texlive-unamth-template
 Requires:	texlive-unamthesis
 Requires:	texlive-unswcover
 Requires:	texlive-ut-thesis
