@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20180614
+Version:	20180712
 Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
