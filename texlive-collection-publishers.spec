@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20180712
-Release:	2
+Version:	20190226
+Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
 URL:		http://tug.org/texlive
