@@ -1,18 +1,12 @@
-# revision 34295
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	20190430
+Version:	64699
 Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-publishers.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-publishers.r64699.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -154,7 +148,7 @@ TeXLive collection-publishers package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
