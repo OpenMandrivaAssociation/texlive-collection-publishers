@@ -12,7 +12,7 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-latex
 Requires:	texlive-ieeeconf
-Requires:	texlive-IEEEtran
+Requires:	texlive-ieeetran
 Requires:	texlive-aastex
 Requires:	texlive-abntex2
 Requires:	texlive-acmconf
