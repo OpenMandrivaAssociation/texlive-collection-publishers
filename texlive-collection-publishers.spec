@@ -11,7 +11,7 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-latex
-Requires:	texlive-IEEEconf
+Requires:	texlive-ieeeconf
 Requires:	texlive-IEEEtran
 Requires:	texlive-aastex
 Requires:	texlive-abntex2
