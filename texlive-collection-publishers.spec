@@ -1,6 +1,6 @@
 Name:		texlive-collection-publishers
 Epoch:		1
-Version:	67894
+Version:	69033
 Release:	1
 Summary:	Publisher styles, theses, etc
 Group:		Publishing
