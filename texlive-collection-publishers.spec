@@ -1,5 +1,5 @@
 %global tl_name collection-publishers
-%global tl_revision 79478
+%global tl_revision 79831
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -92,6 +92,7 @@ Requires:	texlive(elsarticle)
 Requires:	texlive(elteiktdk)
 Requires:	texlive(elteikthesis)
 Requires:	texlive(emisa)
+Requires:	texlive(enslyonstage)
 Requires:	texlive(erdc)
 Requires:	texlive(estcpmm)
 Requires:	texlive(etsvthor)
@@ -125,6 +126,7 @@ Requires:	texlive(hitszbeamer)
 Requires:	texlive(hitszthesis)
 Requires:	texlive(hobete)
 Requires:	texlive(hu-berlin-bundle)
+Requires:	texlive(hust-beamer)
 Requires:	texlive(hustthesis)
 Requires:	texlive(hustvisual)
 Requires:	texlive(iacrj)
@@ -219,6 +221,7 @@ Requires:	texlive(powerdot-fuberlin)
 Requires:	texlive(powerdot-tuliplab)
 Requires:	texlive(pracjourn)
 Requires:	texlive(prociagssymp)
+Requires:	texlive(promec-ufrgs)
 Requires:	texlive(proposal)
 Requires:	texlive(prtec)
 Requires:	texlive(ptptex)
@@ -293,6 +296,7 @@ Requires:	texlive(tugboat)
 Requires:	texlive(tugboat-plain)
 Requires:	texlive(tui)
 Requires:	texlive(turabian)
+Requires:	texlive(tvthesis)
 Requires:	texlive(uaclasses)
 Requires:	texlive(uafthesis)
 Requires:	texlive(ualberta)
