@@ -1,5 +1,5 @@
 %global tl_name collection-publishers
-%global tl_revision 79831
+%global tl_revision 79898
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -77,6 +77,7 @@ Requires:	texlive(cquthesis)
 Requires:	texlive(dccpaper)
 Requires:	texlive(delvierre)
 Requires:	texlive(deutschesmuseum)
+Requires:	texlive(dfg-crc)
 Requires:	texlive(dithesis)
 Requires:	texlive(dlrg-templates)
 Requires:	texlive(ebook)
@@ -259,6 +260,7 @@ Requires:	texlive(seuthesis)
 Requires:	texlive(seuthesix)
 Requires:	texlive(sfee)
 Requires:	texlive(shortmathj)
+Requires:	texlive(siicusp-abstracts)
 Requires:	texlive(smflatex)
 Requires:	texlive(soton)
 Requires:	texlive(sphdthesis)
