@@ -1,5 +1,5 @@
 %global tl_name collection-publishers
-%global tl_revision 79898
+%global tl_revision 79938
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -192,6 +192,7 @@ Requires:	texlive(navydocs)
 Requires:	texlive(nddiss)
 Requires:	texlive(ndsu-thesis)
 Requires:	texlive(ndsu-thesis-2022)
+Requires:	texlive(nehgs-register)
 Requires:	texlive(nih)
 Requires:	texlive(nihbiosketch)
 Requires:	texlive(njustthesis)
@@ -358,7 +359,7 @@ Requires:	texlive(yathesis)
 Requires:	texlive(yazd-thesis)
 Requires:	texlive(yb-book)
 Requires:	texlive(york-thesis)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 Publisher styles, theses, etc.
